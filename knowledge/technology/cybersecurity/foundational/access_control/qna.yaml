@@ -7,9 +7,9 @@ document_outline: |
   role-based access control (RBAC), least privilege, and multi-factor authentication (MFA).
 document:
   repo: https://github.com/Sam17Sheth/taxonomy
-  commit: 11990149f3a3c4988635cc8fb4c81eab214cfce8
+  commit: refs/heads/main
   patterns:
-    - access_control.md
+    - knowledge/technology/cybersecurity/foundational/access_control/access_control.md
 seed_examples:
   - context: |
       Access Control (AC) is a key domain in the CMMC 2.0 framework that focuses

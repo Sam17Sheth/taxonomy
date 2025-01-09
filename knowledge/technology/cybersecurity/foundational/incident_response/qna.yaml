@@ -7,9 +7,9 @@ document_outline: |
   identification, reporting, and recovery.
 document:
   repo: https://github.com/Sam17Sheth/taxonomy
-  commit: 11990149f3a3c4988635cc8fb4c81eab214cfce8
+  commit: refs/heads/main
   patterns:
-    - incident_response.md
+    - knowledge/technology/cybersecurity/foundational/incident_response/incident_response.md
 seed_examples:
   - context: |
       Incident Response (IR) is a critical domain in the CMMC 2.0 framework that
