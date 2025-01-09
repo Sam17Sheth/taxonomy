@@ -7,7 +7,7 @@ document_outline: |
   role-based access control (RBAC), least privilege, and multi-factor authentication (MFA).
 document:
   repo: https://github.com/Sam17Sheth/taxonomy
-  commit: b33db43e1445e400efe3d041806560979a415e58
+  commit: 11990149f3a3c4988635cc8fb4c81eab214cfce8
   patterns:
     - access_control.md
 seed_examples:
