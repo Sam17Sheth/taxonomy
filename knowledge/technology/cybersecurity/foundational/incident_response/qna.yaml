@@ -1,0 +1,61 @@
+created_by: saurabh
+version: 3
+domain: cybersecurity
+document_outline: |
+  This document outlines key practices under the Incident Response domain in CMMC 2.0,
+  including foundational practices like IR.1.001 and concepts such as incident response plans,
+  identification, reporting, and recovery.
+document:
+  repo: https://github.com/Sam17Sheth/taxonomy
+  commit: b33db43e1445e400efe3d041806560979a415e58
+seed_examples:
+  - context: |
+      Incident Response (IR) is a critical domain in the CMMC 2.0 framework that
+      focuses on ensuring organizations are prepared to detect, respond to, and recover from cybersecurity incidents.
+    questions_and_answers:
+      - question: What is the focus of the Incident Response domain in CMMC 2.0?
+        answer: It ensures organizations can detect, respond to, and recover from cybersecurity incidents.
+      - question: Why is incident response important?
+        answer: It minimizes damage from incidents and ensures faster recovery.
+      - question: How does CMMC 2.0 enforce incident response?
+        answer: By requiring organizations to establish and maintain incident response capabilities.
+  - context: |
+      IR.1.001 requires organizations to establish an incident response capability,
+      including roles and responsibilities for incident response.
+    questions_and_answers:
+      - question: What is IR.1.001 in CMMC 2.0?
+        answer: IR.1.001 requires establishing an incident response capability.
+      - question: What does IR.1.001 involve?
+        answer: It involves defining roles and responsibilities for incident response.
+      - question: Why is IR.1.001 significant?
+        answer: It ensures a structured and effective response to incidents.
+  - context: |
+      An incident response plan (IRP) is a documented strategy for responding to
+      cybersecurity incidents effectively.
+    questions_and_answers:
+      - question: What is an incident response plan (IRP)?
+        answer: It’s a documented strategy for managing and mitigating incidents.
+      - question: What should an IRP include?
+        answer: An IRP should include roles, responsibilities, and procedures for incident handling.
+      - question: Why is an IRP necessary?
+        answer: It ensures a structured and efficient response to incidents.
+  - context: |
+      Incident identification and reporting are key steps in incident response.
+      Employees should be trained to recognize and report potential incidents.
+    questions_and_answers:
+      - question: What are key steps in incident response?
+        answer: Identification, reporting, and analyzing incidents are key steps.
+      - question: Why is incident reporting important?
+        answer: It helps organizations respond quickly and mitigate potential damage.
+      - question: How can organizations improve incident reporting?
+        answer: Through employee training and automated detection tools.
+  - context: |
+      Cybersecurity incident recovery involves restoring affected systems and
+      data while preventing recurrence of the incident.
+    questions_and_answers:
+      - question: What is cybersecurity incident recovery?
+        answer: Recovery involves restoring systems and data while preventing recurrence.
+      - question: Why is recovery essential in incident response?
+        answer: It ensures systems are operational and reduces future risks.
+      - question: What steps are involved in incident recovery?
+        answer: Steps include system restoration, root cause analysis, and applying preventive measures.

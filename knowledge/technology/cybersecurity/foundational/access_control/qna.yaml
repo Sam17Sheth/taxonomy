@@ -1,0 +1,63 @@
+created_by: saurabh
+version: 3
+domain: cybersecurity
+document_outline: |
+  This document outlines key practices under the Access Control domain in CMMC 2.0,
+  including foundational practices like AC.1.001 and AC.1.002, and concepts such as
+  role-based access control (RBAC), least privilege, and multi-factor authentication (MFA).
+document:
+  repo: https://github.com/Sam17Sheth/taxonomy
+  commit: b33db43e1445e400efe3d041806560979a415e58
+  patterns:
+    - access_control.md
+seed_examples:
+  - context: |
+      Access Control (AC) is a key domain in the CMMC 2.0 framework that focuses
+      on limiting access to authorized users, devices, and processes to protect
+      sensitive information.
+    questions_and_answers:
+      - question: What is the focus of the Access Control domain in CMMC 2.0?
+        answer: Access Control focuses on limiting access to authorized users, devices, and processes.
+      - question: What is AC.1.001 in CMMC 2.0?
+        answer: AC.1.001 requires organizations to limit system access to authorized users, devices, and processes.
+      - question: Why is Access Control important?
+        answer: Access Control ensures sensitive information is protected by limiting access to authorized entities.
+  - context: |
+      AC.1.002 focuses on limiting user access to authorized transactions and
+      functions, ensuring minimal security risks.
+    questions_and_answers:
+      - question: What is AC.1.002 in CMMC 2.0?
+        answer: AC.1.002 requires limiting user access to authorized transactions and functions.
+      - question: How can AC.1.002 be implemented?
+        answer: Through role-based access control, regular permission reviews, and deactivating inactive accounts.
+      - question: What are the benefits of AC.1.002?
+        answer: AC.1.002 minimizes security risks by ensuring users access only what they need.
+  - context: |
+      Role-based access control (RBAC) assigns permissions to users based on their roles within the organization.
+    questions_and_answers:
+      - question: What is role-based access control (RBAC)?
+        answer: RBAC assigns permissions to users based on their roles in the organization.
+      - question: Why is RBAC useful?
+        answer: RBAC simplifies access management and minimizes security risks.
+      - question: How is RBAC implemented?
+        answer: RBAC is implemented by mapping user roles to predefined access permissions.
+  - context: |
+      The principle of least privilege ensures users only have the access necessary
+      to perform their job functions.
+    questions_and_answers:
+      - question: What is the principle of least privilege?
+        answer: The principle ensures users only have access necessary for their roles.
+      - question: Why is least privilege important?
+        answer: It reduces potential attack surfaces and minimizes the impact of breaches.
+      - question: How is least privilege enforced?
+        answer: Through regular audits, access control policies, and automated tools.
+  - context: |
+      Multi-factor authentication (MFA) is a security measure requiring users to provide
+      two or more verification factors for access.
+    questions_and_answers:
+      - question: What is MFA?
+        answer: MFA requires users to provide two or more verification factors for access.
+      - question: Why is MFA important?
+        answer: MFA enhances security by adding additional authentication layers.
+      - question: How can organizations implement MFA?
+        answer: Organizations can implement MFA using tools like hardware tokens, mobile apps, or biometric systems.

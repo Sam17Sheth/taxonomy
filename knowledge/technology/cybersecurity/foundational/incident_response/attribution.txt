@@ -1,0 +1,5 @@
+Title of work: CMMC 2.0 Practices - Incident Response
+Link to work: https://www.cmmcab.org/cmmc-framework/
+Revision: 2025-01-08
+License of the work: Public Domain
+Creator names: CMMC Accreditation Body
